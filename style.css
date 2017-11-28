@@ -20,6 +20,19 @@ div{
 .flexcontainer{
 	display: flex;
 }
+.content{
+	width: 80%;
+	min-width: 1000px;
+	max-width: 1500px;
+	margin: auto;
+	/*overflow:hidden;*/
+}
+.carousel{
+	height: 300px;
+	width: 100%;
+}
+
+
 .row1 > div{
 	height: 30px;
 }
