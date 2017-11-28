@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	border: 1px solid;
+}
+
+.navlink{
+	height: 55px; 
+	width: 100%;
+	background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/airstream/upnav/C/C_latest_1x._CB493463044_.jpg);
+	background-color: #F6F6F6; 
+	text-align: left; 
+	background-position: top left;
+	background-repeat: no-repeat; 
+	background-size: 1920px; 
+	/*min-width: 1000px;*/
+}
+.flexcontainer{
+	display: flex;
+}
+.row1 > div{
+	height: 30px;
+}
+.row2 > div{
+	height: 30px;
+}
+.flexcontainer .logo{
+	width: 20%;
+}
+.flexcontainer .searchbar{
+	width: 40%;
+}
+.flexcontainer .weekdeals{
+	width: 40%;
+}
+.departments{
+width: 20%;
+}
+.youramazon{
+width: 20%;
+}
+.cybermonday{
+width: 25%;
+}
+.language{
+width: 5%;
+}
+.account{
+width: 20%;
+}
+.orders{
+width: 10%;
+}
+.tryprime{
+width: 10%;
+}
+.cart{
+width: 10%;
+}
