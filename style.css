@@ -1,11 +1,14 @@
 *{
 	margin: 0;
 	padding: 0;
+
 }
 div{
 	border: 1px solid;
 }
-
+header{
+	background-color: #232f3e;
+}
 .navlink{
 	height: 55px; 
 	width: 100%;
@@ -66,6 +69,9 @@ div{
 .logo{
 	width: 200px;
 	min-width: 200px;
+	background-image: url(foto/amazon.png);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .searchbar{
 	width: 100%;
@@ -76,9 +82,18 @@ div{
 .weekdeals{
 	width: 500px;
 	min-width: 500px;
-}
+	background-image: url(foto/logo2.png);
+	background-repeat: no-repeat;
+	background-position: center;}
 .departments{
 width: 20%;
+	color: white;
+	text-decoration: none;
+}
+.departments a{
+	color: #232f3e;
+	text-decoration: none;
+
 }
 .youramazon{
 width: 20%;
@@ -88,16 +103,36 @@ width: 25%;
 }
 .language{
 width: 5%;
-}
+color: white;
+	text-decoration: none;}
 .account{
 width: 20%;
 }
 .orders{
-width: 10%;
+width: 10%;color: #F3F3F3;
+	text-decoration: none;
+
 }
 .tryprime{
-width: 10%;
+width: 10%;color: #F3F3F3;
+	text-decoration: none;
 }
 .cart{
 width: 10%;
+color: #F3F3F3;
+	text-decoration: none;
+}
+.link {
+	color: #F3F3F3;
+	text-decoration: none;
+	
+}
+
+.nav4{
+	color: white;
+	text-decoration: none;
+}
+.nav5 {
+	color: white;
+	text-decoration: none;
 }
